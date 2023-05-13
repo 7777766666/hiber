@@ -13,17 +13,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
       <library>
-        <CLASSES />
-        <JAVADOC>
-          <root url="jar://$MODULE_DIR$/../../postgresql-42.6.1-20230320.135706-1-javadoc.jar!/" />
-        </JAVADOC>
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../postgresql-42.6.1-20230320.135706-1-all.jar!/" />
+          <root url="jar://$MODULE_DIR$/postgresql-42.6.1-20230320.135706-1-all.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
