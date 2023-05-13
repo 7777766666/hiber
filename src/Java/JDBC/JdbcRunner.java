@@ -8,42 +8,62 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 
 public class JdbcRunner {
 
     public static void main(String[] args) throws SQLException {
 
-        Class<Driver> driverClass = Driver.class;
+        String superLol = "'ccc' or '' = ''";
+        System.out.println(getSuper(superLol));
+        System.out.println(getSuperId(superLol));
+
+    }
+
+    private static List<String> getSuper(String x) throws SQLException {
 
         String sql = """
-insert into base.it.super_lol (color) VALUES ('yellow + red');
+                
+                select color from base.it.super_lol where color = %s;
 
-             
- 
-                """;
+                """.formatted(x);
 
-        try(Connection connection = ConnectionManager.open()) {
-            Statement statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
-            System.out.println(connection.getTransactionIsolation());
-            System.out.println(connection.getSchema());
-            System.out.println(statement);
-//            boolean execute = statement.execute(sql);
-            var execute = statement.executeUpdate(sql, Statement.RETURN_GENERATED_KEYS);
-            ResultSet resultSet = statement.getGeneratedKeys();
-            if (resultSet.next()){
-                int number = resultSet.getInt("id");
-                System.out.println(number);
+        List<String> listSuper = new ArrayList<>();
+        List<Integer> integerList = new ArrayList<>();
+        try (Connection connection = ConnectionManager.open()) {
+            Statement statement = connection.createStatement();
+            ResultSet resultSet = statement.executeQuery(sql);
+            while (resultSet.next()) {
+                listSuper.add(resultSet.getString("color"));
+//                integerList.add(resultSet.getInt("id"));
             }
-//            System.out.println(statement.getUpdateCount());
-//            int executeUpdate = statement.executeUpdate(sql, Statement.RETURN_GENERATED_KEYS);
-//            ResultSet resultSet = statement.executeQuery(sql);
-
-
 
 
         }
-
-
-
+        return listSuper;
     }
+
+    private static List<Integer> getSuperId(String x) throws SQLException {
+
+        String sql = """
+                select id from base.it.super_lol where color = %s;
+
+                """.formatted(x);
+
+        List<String> listSuper = new ArrayList<>();
+        List<Integer> integerList = new ArrayList<>();
+        try (Connection connection = ConnectionManager.open()) {
+            Statement statement = connection.createStatement();
+            ResultSet resultSet = statement.executeQuery(sql);
+            while (resultSet.next()) {
+//                listSuper.add(resultSet.getString("color"));
+                integerList.add(resultSet.getInt("id"));
+            }
+
+
+        }
+        return integerList;
+    }
+
 }
