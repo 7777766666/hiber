@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6326ce96-4504-4eb4-8f6a-6cc20421505b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c6866c63-406b-4af0-ac58-4bcc67aa2176.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c6866c63-406b-4af0-ac58-4bcc67aa2176.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c6866c63-406b-4af0-ac58-4bcc67aa2176/storage_v2/_src_/database/base.0QYuAA/schema/it.Kw0AAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c6866c63-406b-4af0-ac58-4bcc67aa2176/storage_v2/_src_/database/base.0QYuAA/schema/it.Kw0AAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c6866c63-406b-4af0-ac58-4bcc67aa2176/storage_v2/_src_/database/base.0QYuAA/schema/lol.SaMBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c6866c63-406b-4af0-ac58-4bcc67aa2176/storage_v2/_src_/database/base.0QYuAA/schema/lol.SaMBAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c6866c63-406b-4af0-ac58-4bcc67aa2176/storage_v2/_src_/database/base.0QYuAA/schema/my_val.Dk7WwA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c6866c63-406b-4af0-ac58-4bcc67aa2176/storage_v2/_src_/database/base.0QYuAA/schema/my_val.Dk7WwA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c6866c63-406b-4af0-ac58-4bcc67aa2176/storage_v2/_src_/database/base.0QYuAA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c6866c63-406b-4af0-ac58-4bcc67aa2176/storage_v2/_src_/database/base.0QYuAA/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c6866c63-406b-4af0-ac58-4bcc67aa2176/storage_v2/_src_/database/base.0QYuAA/schema/property.1d3NxA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c6866c63-406b-4af0-ac58-4bcc67aa2176/storage_v2/_src_/database/base.0QYuAA/schema/property.1d3NxA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c6866c63-406b-4af0-ac58-4bcc67aa2176/storage_v2/_src_/database/base.0QYuAA/schema/transaction.3tKgfw.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c6866c63-406b-4af0-ac58-4bcc67aa2176/storage_v2/_src_/database/base.0QYuAA/schema/transaction.3tKgfw.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c6866c63-406b-4af0-ac58-4bcc67aa2176/storage_v2/_src_/database/base.0QYuAA/schema/val.IccBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c6866c63-406b-4af0-ac58-4bcc67aa2176/storage_v2/_src_/database/base.0QYuAA/schema/val.IccBAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c6866c63-406b-4af0-ac58-4bcc67aa2176/storage_v2/_src_/database/postgres.edMnLQ/schema/lol.SaMBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c6866c63-406b-4af0-ac58-4bcc67aa2176/storage_v2/_src_/database/postgres.edMnLQ/schema/lol.SaMBAA.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/JDBC/JdbcRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/JDBC/JdbcRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +50,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ShowUsagesActions.previewPropertyKey": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "E:/Idea/hiber/postgresql-42.6.1-20230320.135706-1-all.jar",
     "node.js.detected.package.eslint": "true",
@@ -48,7 +60,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "preferences.rainbow.brackets",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -86,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683980925765</updated>
       <workItem from="1683980926605" duration="3860000" />
-      <workItem from="1683984845964" duration="9245000" />
+      <workItem from="1683984845964" duration="22059000" />
     </task>
     <servers />
   </component>
