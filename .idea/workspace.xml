@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6326ce96-4504-4eb4-8f6a-6cc20421505b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java/JDBC/Util/Leet2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java/JDBC/Util/LeetCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c6866c63-406b-4af0-ac58-4bcc67aa2176.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c6866c63-406b-4af0-ac58-4bcc67aa2176.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c6866c63-406b-4af0-ac58-4bcc67aa2176/storage_v2/_src_/database/base.0QYuAA/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c6866c63-406b-4af0-ac58-4bcc67aa2176/storage_v2/_src_/database/base.0QYuAA/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Java/JDBC/JdbcRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/JDBC/JdbcRunner.java" afterDir="false" />
     </list>
@@ -42,7 +48,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ShowUsagesActions.previewPropertyKey": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Idea/hiber/postgresql-42.6.1-20230320.135706-1-all.jar",
+    "last_opened_file_path": "E:/Idea/hiber",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,7 +65,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.JdbcRunner">
     <configuration name="JdbcRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java.JDBC.JdbcRunner" />
       <module name="hiber" />
@@ -73,9 +79,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Leet2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java.JDBC.Util.Leet2" />
+      <module name="hiber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java.JDBC.Util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java.JDBC.Util.LeetCode" />
+      <module name="hiber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java.JDBC.Util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.JdbcRunner" />
+        <item itemvalue="Application.Leet2" />
+        <item itemvalue="Application.LeetCode" />
       </list>
     </recent_temporary>
   </component>
@@ -88,7 +122,8 @@
       <option name="presentableId" value="Default" />
       <updated>1683980925765</updated>
       <workItem from="1683980926605" duration="3860000" />
-      <workItem from="1683984845964" duration="30371000" />
+      <workItem from="1683984845964" duration="39037000" />
+      <workItem from="1684061726840" duration="1711000" />
     </task>
     <servers />
   </component>
@@ -97,6 +132,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Java/JDBC/Util/LeetCode.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

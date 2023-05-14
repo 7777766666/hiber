@@ -3,12 +3,7 @@ package Java.JDBC;
 import Java.JDBC.Util.ConnectionManager;
 import org.postgresql.Driver;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,9 +17,30 @@ public class JdbcRunner {
         Long x = 15L;
         Long z = 196L;
 //        System.out.println(getPrep(x));
-        System.out.println(getBetween(x, z));
+//        System.out.println(getBetween(x, z));
+        metaData();
 
+    }
 
+    private static void metaData() throws SQLException {
+        try (Connection connection = ConnectionManager.open()) {
+            DatabaseMetaData metaData = connection.getMetaData();
+            ResultSet catalogs = metaData.getCatalogs();
+            String tableCat = null;
+            while (catalogs.next()) {
+                tableCat = catalogs.getString("TABLE_CAT");
+            }
+            ResultSet schemas = metaData.getSchemas();
+            while (schemas.next()) {
+                String tableSchem = schemas.getString("TABLE_SCHEM");
+                ResultSet tables = metaData.getTables(tableCat, tableSchem, "%", new String[] {"TABLE"});
+                if (tableSchem.equals("it")) {
+                    while (tables.next()) {
+                        System.out.println(tables.getString("TABLE_NAME"));
+                    }
+                }
+            }
+        }
     }
 
     private static List<String> getPrep(Long x) throws SQLException {
@@ -35,6 +51,7 @@ public class JdbcRunner {
 
         try (Connection connection = ConnectionManager.open()) {
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setLargeMaxRows(2);
             preparedStatement.setLong(1, x);
             ResultSet resultSet = preparedStatement.executeQuery();
             while (resultSet.next()) {
@@ -77,6 +94,10 @@ public class JdbcRunner {
 
             PreparedStatement preparedStatement = connection.prepareStatement(str);
             System.out.println(preparedStatement);
+            preparedStatement.setFetchSize(1);
+            preparedStatement.setMaxRows(5);
+            preparedStatement.setQueryTimeout(15);
+
             preparedStatement.setLong(1, l1);
             System.out.println(preparedStatement);
             preparedStatement.setLong(2, l2);

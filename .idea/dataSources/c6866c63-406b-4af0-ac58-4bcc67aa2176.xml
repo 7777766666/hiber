@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="base@localhost">
-  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.45">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.48">
     <root id="1">
       <DateStyle>dmy</DateStyle>
       <IntrospectionStateNumber>1277</IntrospectionStateNumber>
@@ -5511,36 +5511,48 @@ false Zulu
     <sequence id="277" parent="265" name="company_id_seq">
       <DasType>integer|0s</DasType>
       <ObjectId>16608</ObjectId>
+      <SequenceIdentity>1</SequenceIdentity>
+      <StartValue>1</StartValue>
       <StateNumber>975</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
     <sequence id="278" parent="265" name="employee_id_seq">
       <DasType>integer|0s</DasType>
       <ObjectId>16624</ObjectId>
+      <SequenceIdentity>1</SequenceIdentity>
+      <StartValue>1</StartValue>
       <StateNumber>984</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
     <sequence id="279" parent="265" name="mega_int_seq">
       <DasType>integer|0s</DasType>
       <ObjectId>16832</ObjectId>
+      <SequenceIdentity>1</SequenceIdentity>
+      <StartValue>1</StartValue>
       <StateNumber>1262</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
     <sequence id="280" parent="265" name="mem_id_seq">
       <DasType>integer|0s</DasType>
       <ObjectId>16747</ObjectId>
+      <SequenceIdentity>1</SequenceIdentity>
+      <StartValue>1</StartValue>
       <StateNumber>1114</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
     <sequence id="281" parent="265" name="phone_id_seq">
       <DasType>integer|0s</DasType>
       <ObjectId>16640</ObjectId>
+      <SequenceIdentity>1</SequenceIdentity>
+      <StartValue>1</StartValue>
       <StateNumber>1002</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
     <sequence id="282" parent="265" name="super_lol_id_seq">
       <DasType>integer|0s</DasType>
       <ObjectId>16814</ObjectId>
+      <SequenceIdentity>1</SequenceIdentity>
+      <StartValue>1</StartValue>
       <StateNumber>1237</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
@@ -5613,12 +5625,16 @@ false Zulu
     <sequence id="294" parent="273" name="car_id_seq">
       <DasType>integer|0s</DasType>
       <ObjectId>16511</ObjectId>
+      <SequenceIdentity>1</SequenceIdentity>
+      <StartValue>1</StartValue>
       <StateNumber>883</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
     <sequence id="295" parent="273" name="super_lol_id_seq">
       <DasType>integer|0s</DasType>
       <ObjectId>16805</ObjectId>
+      <SequenceIdentity>1</SequenceIdentity>
+      <StartValue>1</StartValue>
       <StateNumber>1217</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
