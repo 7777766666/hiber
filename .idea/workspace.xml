@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6326ce96-4504-4eb4-8f6a-6cc20421505b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Java/JDBC/TransactionRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c6866c63-406b-4af0-ac58-4bcc67aa2176.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c6866c63-406b-4af0-ac58-4bcc67aa2176.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c6866c63-406b-4af0-ac58-4bcc67aa2176/storage_v2/_src_/database/base.0QYuAA/schema/it.Kw0AAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c6866c63-406b-4af0-ac58-4bcc67aa2176/storage_v2/_src_/database/base.0QYuAA/schema/it.Kw0AAA.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c6866c63-406b-4af0-ac58-4bcc67aa2176/storage_v2/_src_/database/base.0QYuAA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c6866c63-406b-4af0-ac58-4bcc67aa2176/storage_v2/_src_/database/base.0QYuAA/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/JDBC/TransactionRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/JDBC/TransactionRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,11 +148,6 @@
           <url>file://$PROJECT_DIR$/src/Java/JDBC/Util/LeetCode.java</url>
           <line>24</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java/JDBC/TransactionRunner.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -9,7 +9,7 @@ import java.sql.SQLException;
 public class TransactionRunner {
 
     public static void main(String[] args) throws SQLException {
-        int super_lolId = 13;
+        int super_lolId = 15;
         String deleteSuper_lol = " delete from base.it.super_lol where id = ?";
         String deleteTest = "delete from base.it.test where super_lol_id = ?";
         Connection connection = null;
@@ -26,9 +26,7 @@ public class TransactionRunner {
 
 
             delTestStatement.executeUpdate();
-            if (true){
-                throw new RuntimeException("lol");
-            }
+
             deleteSuperStatement.executeUpdate();
             connection.commit();
         }catch (Exception e){
